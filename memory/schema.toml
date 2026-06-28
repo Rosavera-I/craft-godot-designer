@@ -1,9 +1,16 @@
 [facts]
-project_engine = "Godot version and renderer"
-gameplay_loop = "Current core loop and player verbs"
-scene_patterns = "Preferred scene ownership and signal patterns"
-tuning_values = "Important exported gameplay constants"
+project_engine = "Godot version (4.x) and renderer (Forward+/Mobile/Compatibility)"
+gameplay_loop = "Core loop: player verbs, goals, rewards, session length"
+scene_patterns = "Ownership rules, signal conventions, scene composition patterns"
+tuning_values = "Important exported vars: speeds, timers, health, damage, spawn rates"
+autoloads = "Global singletons and their responsibilities"
+input_map = "Actions, bindings, and input handling patterns"
+performance_budget = "Target FPS, node count limits, draw call budget"
+asset_pipeline = "Import settings, source control for assets, naming conventions"
 
 [events]
-playtest_note = "Observed playtest feedback or feel issue"
-design_decision = "Accepted gameplay or architecture decision"
+playtest_note = "Observed playtest feedback or feel issue with context"
+design_decision = "Accepted gameplay or architecture decision with rationale"
+performance_issue = "Identified bottleneck: CPU, GPU, or memory"
+scene_refactor = "Scene tree restructuring with before/after"
+tuning_change = "Balance change and observed player impact"

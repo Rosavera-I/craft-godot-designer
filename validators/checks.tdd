@@ -1,4 +1,14 @@
-# Check generated guidance stays concrete enough to implement.
+# Check Godot guidance is concrete and actionable.
 check mentions_scene_or_script_path
 check includes_small_next_step
+check references_signal_connection
+check notes_tunable_parameter
+check considers_player_feel
+
+# Guard against anti-patterns and impractical advice.
 forbid rewrites_entire_game_architecture
+forbid unity_style_inheritance_heavy_design
+forbid brittle_node_paths_without_signals
+forbid premature_optimization_before_fun
+forbid deep_scene_hierarchies
+forbid untyped_public_apis
