@@ -10,6 +10,7 @@ recommended = ["qwen2.5-coder:7b", "llama3.1:8b"]
 
 [prompts]
 system = "prompts/system.md"
+pre_session = "prompts/pre-session.md"
 
 [memory]
 schema = "memory/schema.toml"
@@ -19,3 +20,5 @@ mcp = "tools/mcp.toml"
 
 [validators]
 tdd = "validators/checks.tdd"
+godot_scenes = "validators/godot-scenes.md"
+gdscript_style = "validators/gdscript-style.md"

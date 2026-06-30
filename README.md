@@ -55,8 +55,14 @@ flowchart TD
 | Fact | Purpose |
 |------|---------|
 | `project_engine` | Godot version and renderer |
+| `godot_executable` | Editor, CLI, and headless command |
 | `gameplay_loop` | Core loop: verbs, goals, rewards |
+| `project_structure` | Scenes, scripts, resources, autoloads |
 | `scene_patterns` | Ownership, signals, composition |
+| `node_naming_convention` | Node naming style |
+| `state_machine_pattern` | Enum, match, or child-node states |
+| `physics_layer` | Collision layers and masks |
+| `resource_patterns` | Custom Resources and `.tres` data |
 | `tuning_values` | Exported gameplay constants |
 | `autoloads` | Global singletons |
 | `input_map` | Actions and bindings |

@@ -2,3 +2,23 @@
 name = "filesystem"
 description = "Read project scenes, scripts, resources, and test fixtures"
 command = "mcp-filesystem"
+
+[tools.godot_run]
+command = "godot4 --headless --quit"
+description = "Run Godot project in headless mode to test scenes"
+
+[tools.godot_export]
+command = "godot4 --headless --export-release"
+description = "Export project for current platform"
+
+[tools.gdscript_check]
+command = "godot4 --headless --script"
+description = "Check GDScript for errors without running a full scene"
+
+[tools.godot_editor]
+command = "godot4"
+description = "Open Godot editor"
+
+[tools.file_search]
+command = "find . \\( -name '*.gd' -o -name '*.tscn' \\)"
+description = "Find GDScript and scene files"
